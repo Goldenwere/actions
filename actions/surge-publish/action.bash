@@ -55,7 +55,7 @@ fi
 # =====================================
 # RUN
 
-for target in ${targets[*]}; do
-	echo "deploying $SURGE_PROJECT to $target"
-	npx --no-install surge --project $SURGE_PROJECT --domain $SURGE_URL
+echo "deploying $SURGE_PROJECT to $target"
+npx --no-install surge --project $SURGE_PROJECT --domain $SURGE_URL
+
 done
