@@ -57,5 +57,3 @@ fi
 
 echo "deploying $SURGE_PROJECT to $SURGE_URL"
 npx --no-install surge --project $SURGE_PROJECT --domain $SURGE_URL
-
-done
